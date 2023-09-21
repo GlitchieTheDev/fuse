@@ -50,7 +50,7 @@ const Page = () => {
             <Input required register={register} errors={errors} id="query" placeholder="Search FUSE or type a URL" icon={GoSearch} />
             <div className="flex lg:justify-evenly lg:w-5/12 md:justify-evenly md:w-3/12  sm:w-full sm:justify-center">
                 <Button>Search</Button>
-                <Button style="secondary" action={feelLucky}>I am <b>NOT</b> feeling lucky</Button>
+                <Button style="secondary" action={feelLucky}>I am feeling lucky</Button>
             </div>
         </form>
     )
